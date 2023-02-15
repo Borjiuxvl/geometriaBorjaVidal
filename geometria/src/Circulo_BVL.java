@@ -7,6 +7,9 @@ public class Circulo_BVL extends FiguraGeometrica_BVL {
 	public Circulo_BVL(double r, String tipoFigura) {
 		super(tipoFigura);
 		radio = r;
+		if (radio < 0) {
+			radio = radio * -1;
+		}
 	}
 
 	@Override
