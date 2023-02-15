@@ -20,4 +20,8 @@ public abstract class FiguraGeometrica_BVL {
 		this.tipoFigura = tipoFigura;
 	}
 
+	public double semiPerimetro() {
+		return this.perimetro() / 2;
+	}
+
 }
